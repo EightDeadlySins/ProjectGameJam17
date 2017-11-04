@@ -828,7 +828,7 @@ else if (hsp = 0)
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>-100</object>
+            <object>obj_Player</object>
           </argument>
           <argument>
             <kind>0</kind>
