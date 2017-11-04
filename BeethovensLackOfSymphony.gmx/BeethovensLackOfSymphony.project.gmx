@@ -15,11 +15,7 @@
     <sprite>sprites\spr_Enemy</sprite>
     <sprite>sprites\spr_Weapon</sprite>
     <sprite>sprites\spr_Instrument_2</sprite>
-<<<<<<< HEAD
-    <sprite>sprites\spr_Instrument_2_Melee</sprite>
-=======
     <sprite>sprites\spr_PlayerTest</sprite>
->>>>>>> 0867aba6ecedd8e39bf3239fe4c528ca6d7a083c
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
@@ -33,8 +29,8 @@
     <object>objects\obj_Wall</object>
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Weapon</object>
-    <object>objects\obj_Melee_Violin</object>
-    <object>objects\obj_Pickup_Violin</object>
+    <object>objects\obj_Carrying_Cello</object>
+    <object>objects\obj_Pickup_Cello</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_GameOver</timeline>
