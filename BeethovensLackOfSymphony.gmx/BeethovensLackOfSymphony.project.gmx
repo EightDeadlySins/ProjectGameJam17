@@ -4,7 +4,23 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
+<<<<<<< HEAD
+  <sounds name="sound">
+    <sound>sound\background_music</sound>
+    <sound>sound\background_music_epic</sound>
+    <sound>sound\gameover_music</sound>
+    <sound>sound\sfx_Whiff1</sound>
+    <sound>sound\sfx_Whiff2</sound>
+    <sound>sound\sfx_Whiff3</sound>
+    <sound>sound\sfx_Attack1</sound>
+    <sound>sound\sfx_Attack2</sound>
+    <sound>sound\sfx_Jump</sound>
+    <sound>sound\sfx_Walk1</sound>
+    <sound>sound\sfx_Walk2</sound>
+  </sounds>
+=======
   <sounds name="sound"/>
+>>>>>>> c97edd0728c78a041182528119f4ab68c5c6a6fa
   <sprites name="sprites">
     <sprite>sprites\spr_Player</sprite>
     <sprite>sprites\spr_Wall</sprite>
