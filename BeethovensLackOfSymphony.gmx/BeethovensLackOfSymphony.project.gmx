@@ -29,8 +29,6 @@
     <object>objects\obj_Wall</object>
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Weapon</object>
-    <object>objects\obj_Carrying_Cello</object>
-    <object>objects\obj_Pickup_Cello</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_GameOver</timeline>
