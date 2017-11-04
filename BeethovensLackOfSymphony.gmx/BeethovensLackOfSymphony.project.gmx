@@ -17,6 +17,9 @@
     <object>objects\obj_Wall</object>
     <object>objects\obj_Enemy</object>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_Test_Room</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
