@@ -5,9 +5,18 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_Player</sprite>
+    <sprite>sprites\spr_Wall</sprite>
+    <sprite>sprites\spr_Enemy</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_Player</object>
+    <object>objects\obj_Wall</object>
+    <object>objects\obj_Enemy</object>
+  </objects>
   <help>
     <rtf>help.rtf</rtf>
   </help>
