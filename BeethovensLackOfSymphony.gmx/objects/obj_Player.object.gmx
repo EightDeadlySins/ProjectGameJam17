@@ -380,7 +380,7 @@ else if (hsp = 0)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_Player">
+    <event eventtype="4" ename="obj_Pickup_Violin">
       <action>
         <libid>1</libid>
         <id>203</id>
@@ -948,7 +948,7 @@ else if (hsp = 0)
         <exetype>1</exetype>
         <functionname>action_move_to</functionname>
         <codestring></codestring>
-        <whoName>&lt;undefined&gt;</whoName>
+        <whoName>obj_Melee_Violin</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -972,7 +972,7 @@ else if (hsp = 0)
         <exetype>1</exetype>
         <functionname>action_sprite_transform</functionname>
         <codestring></codestring>
-        <whoName>&lt;undefined&gt;</whoName>
+        <whoName>obj_Melee_Violin</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -1046,7 +1046,7 @@ else if (hsp = 0)
         <exetype>1</exetype>
         <functionname>action_move_to</functionname>
         <codestring></codestring>
-        <whoName>&lt;undefined&gt;</whoName>
+        <whoName>obj_Melee_Violin</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -1070,7 +1070,7 @@ else if (hsp = 0)
         <exetype>1</exetype>
         <functionname>action_sprite_transform</functionname>
         <codestring></codestring>
-        <whoName>&lt;undefined&gt;</whoName>
+        <whoName>obj_Melee_Violin</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -1260,7 +1260,7 @@ else if (hsp = 0)
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>-100</object>
+            <object>obj_Melee_Violin</object>
           </argument>
           <argument>
             <kind>0</kind>
