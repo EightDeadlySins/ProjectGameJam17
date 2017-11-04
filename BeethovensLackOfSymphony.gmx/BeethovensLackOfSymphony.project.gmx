@@ -9,6 +9,7 @@
     <sprite>sprites\spr_Player</sprite>
     <sprite>sprites\spr_Wall</sprite>
     <sprite>sprites\spr_Enemy</sprite>
+    <sprite>sprites\spr_Weapon</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
@@ -18,6 +19,7 @@
     <object>objects\obj_Player</object>
     <object>objects\obj_Wall</object>
     <object>objects\obj_Enemy</object>
+    <object>objects\obj_Weapon</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Test_Room</room>
