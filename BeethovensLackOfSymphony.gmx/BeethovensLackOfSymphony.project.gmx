@@ -15,6 +15,7 @@
     <sprite>sprites\spr_Enemy</sprite>
     <sprite>sprites\spr_Weapon</sprite>
     <sprite>sprites\spr_Instrument_2</sprite>
+    <sprite>sprites\spr_PlayerTest</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
@@ -30,7 +31,6 @@
     <object>objects\obj_Weapon</object>
     <object>objects\obj_Carrying_Cello</object>
     <object>objects\obj_Pickup_Cello</object>
-    <object>objects\obj_Controller</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_GameOver</timeline>
