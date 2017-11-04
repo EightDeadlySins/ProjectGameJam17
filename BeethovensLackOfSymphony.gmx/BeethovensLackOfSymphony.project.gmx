@@ -4,22 +4,14 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound">
-    <sound>sound\background_music</sound>
-    <sound>sound\background_music_epic</sound>
-    <sound>sound\gameover_music</sound>
-  </sounds>
+  <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_Player</sprite>
     <sprite>sprites\spr_Wall</sprite>
     <sprite>sprites\spr_Enemy</sprite>
     <sprite>sprites\spr_Weapon</sprite>
     <sprite>sprites\spr_Instrument_2</sprite>
-<<<<<<< HEAD
     <sprite>sprites\spr_Instrument_2_Melee</sprite>
-=======
-    <sprite>sprites\spr_PlayerTest</sprite>
->>>>>>> 0867aba6ecedd8e39bf3239fe4c528ca6d7a083c
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
