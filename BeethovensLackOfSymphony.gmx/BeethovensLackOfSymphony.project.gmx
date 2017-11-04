@@ -10,6 +10,7 @@
     <sprite>sprites\spr_Wall</sprite>
     <sprite>sprites\spr_Enemy</sprite>
     <sprite>sprites\spr_Weapon</sprite>
+    <sprite>sprites\spr_Instrument_2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
