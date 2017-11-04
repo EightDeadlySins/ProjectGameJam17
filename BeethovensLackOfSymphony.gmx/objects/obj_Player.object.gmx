@@ -64,6 +64,34 @@ key_up = keyboard_check(vk_up);
 //Movement code
 move = key_right + key_left;
 hsp = move * movespeed;
+
+if(vsp &lt; 10){
+    vsp += grav;
+}
+
+if(place_meeting(x, y+1, obj_Wall)){
+    vsp = key_up * -jumpspeed;
+}
+
+if(place_meeting(x+hsp, y, obj_wall)){
+    while(!place_meeting(x+sign(hsp), y, obj_Wall)){
+        x += sign(hsp);
+    }
+    
+    hsp = 0;
+}
+
+if(place_meeting(x, y+vsp, obj_Wall)){
+    while(!place_meeting(x, y+sign(vsp), obj_Wall)){
+        y += sign(vsp);
+    }
+    
+    vsp = 0;
+}
+
+//Final Movement code
+x += hsp;
+y += vsp;
 </string>
           </argument>
         </arguments>
