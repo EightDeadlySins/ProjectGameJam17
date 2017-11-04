@@ -10,7 +10,9 @@
     <sprite>sprites\spr_Wall</sprite>
     <sprite>sprites\spr_Enemy</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bkg_background</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_Player</object>
