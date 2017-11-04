@@ -4,20 +4,6 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-
-  <sounds name="sound">
-    <sound>sound\background_music</sound>
-    <sound>sound\background_music_epic</sound>
-    <sound>sound\gameover_music</sound>
-    <sound>sound\sfx_Whiff1</sound>
-    <sound>sound\sfx_Whiff2</sound>
-    <sound>sound\sfx_Whiff3</sound>
-    <sound>sound\sfx_Attack1</sound>
-    <sound>sound\sfx_Attack2</sound>
-    <sound>sound\sfx_Jump</sound>
-    <sound>sound\sfx_Walk1</sound>
-    <sound>sound\sfx_Walk2</sound>
-  </sounds>
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_Player</sprite>
@@ -26,6 +12,7 @@
     <sprite>sprites\spr_Weapon</sprite>
     <sprite>sprites\spr_Instrument_2</sprite>
     <sprite>sprites\spr_Instrument_2_Melee</sprite>
+    <sprite>sprites\spr_GameOver_screen</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
