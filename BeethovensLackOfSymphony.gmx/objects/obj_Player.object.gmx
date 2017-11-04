@@ -210,6 +210,30 @@ if(place_meeting(x, y+vsp, obj_Wall)){
 //Final Movement code
 x += hsp;
 y += vsp;
+
+//checks what direction the player is looking last to change the characters direction
+if (hsp &gt; 0)
+{
+    image_index = 1;
+    Direction = true;
+}
+else if (hsp &lt; 0)
+{
+    image_index = 0;
+    Direction = false;
+}
+
+else if (hsp = 0)
+{
+    if (Direction = true)
+    {
+        image_index = 1;
+    }
+    else 
+    {
+        image_index = 0;
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -356,7 +380,7 @@ y += vsp;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_Pickup_Violin">
+    <event eventtype="4" ename="obj_Player">
       <action>
         <libid>1</libid>
         <id>203</id>
@@ -804,7 +828,7 @@ y += vsp;
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_Melee_Violin</object>
+            <object>-100</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -924,7 +948,7 @@ y += vsp;
         <exetype>1</exetype>
         <functionname>action_move_to</functionname>
         <codestring></codestring>
-        <whoName>obj_Melee_Violin</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -948,7 +972,7 @@ y += vsp;
         <exetype>1</exetype>
         <functionname>action_sprite_transform</functionname>
         <codestring></codestring>
-        <whoName>obj_Melee_Violin</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -1022,7 +1046,7 @@ y += vsp;
         <exetype>1</exetype>
         <functionname>action_move_to</functionname>
         <codestring></codestring>
-        <whoName>obj_Melee_Violin</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -1046,7 +1070,7 @@ y += vsp;
         <exetype>1</exetype>
         <functionname>action_sprite_transform</functionname>
         <codestring></codestring>
-        <whoName>obj_Melee_Violin</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -1236,7 +1260,7 @@ y += vsp;
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_Melee_Violin</object>
+            <object>-100</object>
           </argument>
           <argument>
             <kind>0</kind>
