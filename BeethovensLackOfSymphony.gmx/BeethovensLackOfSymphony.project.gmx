@@ -8,6 +8,14 @@
     <sound>sound\background_music</sound>
     <sound>sound\background_music_epic</sound>
     <sound>sound\gameover_music</sound>
+    <sound>sound\sfx_Whiff1</sound>
+    <sound>sound\sfx_Whiff2</sound>
+    <sound>sound\sfx_Whiff3</sound>
+    <sound>sound\sfx_Attack1</sound>
+    <sound>sound\sfx_Attack2</sound>
+    <sound>sound\sfx_Jump</sound>
+    <sound>sound\sfx_Walk1</sound>
+    <sound>sound\sfx_Walk2</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Player</sprite>
@@ -29,8 +37,6 @@
     <object>objects\obj_Wall</object>
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Weapon</object>
-    <object>objects\obj_Carrying_Cello</object>
-    <object>objects\obj_Pickup_Cello</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_GameOver</timeline>

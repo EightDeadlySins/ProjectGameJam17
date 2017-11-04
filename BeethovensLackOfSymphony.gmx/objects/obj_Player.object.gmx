@@ -310,7 +310,7 @@ y += vsp;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_Pickup_Violin">
+    <event eventtype="4" ename="obj_Player">
       <action>
         <libid>1</libid>
         <id>203</id>
@@ -656,7 +656,7 @@ y += vsp;
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_Melee_Violin</object>
+            <object>-100</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -776,7 +776,7 @@ y += vsp;
         <exetype>1</exetype>
         <functionname>action_move_to</functionname>
         <codestring></codestring>
-        <whoName>obj_Melee_Violin</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -800,7 +800,7 @@ y += vsp;
         <exetype>1</exetype>
         <functionname>action_sprite_transform</functionname>
         <codestring></codestring>
-        <whoName>obj_Melee_Violin</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -874,7 +874,7 @@ y += vsp;
         <exetype>1</exetype>
         <functionname>action_move_to</functionname>
         <codestring></codestring>
-        <whoName>obj_Melee_Violin</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -898,7 +898,7 @@ y += vsp;
         <exetype>1</exetype>
         <functionname>action_sprite_transform</functionname>
         <codestring></codestring>
-        <whoName>obj_Melee_Violin</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -1088,7 +1088,7 @@ y += vsp;
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_Melee_Violin</object>
+            <object>-100</object>
           </argument>
           <argument>
             <kind>0</kind>
