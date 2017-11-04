@@ -14,13 +14,20 @@
     <background>background\bkg_background</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\script0.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_Player</object>
     <object>objects\obj_Wall</object>
     <object>objects\obj_Enemy</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\tl_GameOver</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\rm_Test_Room</room>
+    <room>rooms\rm_GameOver</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
