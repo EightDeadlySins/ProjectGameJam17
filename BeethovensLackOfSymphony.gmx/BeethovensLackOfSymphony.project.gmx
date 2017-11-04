@@ -4,7 +4,7 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-<<<<<<< HEAD
+
   <sounds name="sound">
     <sound>sound\background_music</sound>
     <sound>sound\background_music_epic</sound>
@@ -18,9 +18,7 @@
     <sound>sound\sfx_Walk1</sound>
     <sound>sound\sfx_Walk2</sound>
   </sounds>
-=======
   <sounds name="sound"/>
->>>>>>> c97edd0728c78a041182528119f4ab68c5c6a6fa
   <sprites name="sprites">
     <sprite>sprites\spr_Player</sprite>
     <sprite>sprites\spr_Wall</sprite>
@@ -41,11 +39,8 @@
     <object>objects\obj_Wall</object>
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Weapon</object>
-<<<<<<< HEAD
-=======
     <object>objects\obj_Melee_Violin</object>
     <object>objects\obj_Pickup_Violin</object>
->>>>>>> c97edd0728c78a041182528119f4ab68c5c6a6fa
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_GameOver</timeline>
