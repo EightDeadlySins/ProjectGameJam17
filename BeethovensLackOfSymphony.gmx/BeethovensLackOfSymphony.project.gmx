@@ -39,7 +39,6 @@
     <sprite>sprites\spr_Quill</sprite>
     <sprite>sprites\spr_WalkingLeft</sprite>
     <sprite>sprites\spr_Sky</sprite>
-    <sprite>sprites\spr_GameOver</sprite>
     <sprite>sprites\spr_Player_walking_right</sprite>
     <sprite>sprites\spr_Player_walking_left</sprite>
     <sprite>sprites\spr_intro</sprite>
