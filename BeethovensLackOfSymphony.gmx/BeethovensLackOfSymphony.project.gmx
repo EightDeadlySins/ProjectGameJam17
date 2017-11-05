@@ -24,6 +24,7 @@
     <sprite>sprites\spr_intro_fade</sprite>
     <sprite>sprites\img_inrto_0</sprite>
     <sprite>sprites\img_intro_1</sprite>
+    <sprite>sprites\img_intro_3</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
