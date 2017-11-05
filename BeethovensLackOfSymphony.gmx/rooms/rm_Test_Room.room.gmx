@@ -204,8 +204,7 @@
     <instance objName="obj_Pickup_Keyboard" x="224" y="288" name="inst_6928797B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pickup_Quill" x="480" y="288" name="inst_CF4F2F70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Music" x="0" y="0" name="inst_7844651D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Spawn" x="1024" y="352" name="inst_F6935D40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Enemy" x="928" y="352" name="inst_0685DE29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spawn" x="768" y="352" name="inst_926AB986" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
