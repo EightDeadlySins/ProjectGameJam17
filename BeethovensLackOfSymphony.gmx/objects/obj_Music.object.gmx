@@ -26,8 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>snd = audio_play_sound(mus_Background_Virus, 0, true);
-audio_sound_gain(snd, 0.15, 0);
-music_volume = 0.50;
+music_volume = 0.15;
+audio_sound_gain(snd, music_volume, 0);
+
 </string>
           </argument>
         </arguments>
