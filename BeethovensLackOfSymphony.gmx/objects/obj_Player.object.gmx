@@ -448,6 +448,11 @@ else if (hsp = 0)
         image_index = 0;
     }
 }
+
+//sound effects
+if(keyboard_check_pressed(vk_up) = true){
+    audio_play_sound(sfx_Jump, 5, false);
+}
 </string>
           </argument>
         </arguments>
@@ -939,7 +944,7 @@ else if (hsp = 0)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_Pickup_Keyboard">
+    <event eventtype="4" ename="obj_Pickup_Violin">
       <action>
         <libid>1</libid>
         <id>605</id>
@@ -976,7 +981,7 @@ else if (hsp = 0)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Set all variables to indicate we have a keyboard, and destroy this item</string>
+            <string>Set all variables to indicate we have a violin, and destroy this item</string>
           </argument>
         </arguments>
       </action>
@@ -1032,7 +1037,7 @@ else if (hsp = 0)
           </argument>
           <argument>
             <kind>13</kind>
-            <string>65280</string>
+            <string>8388863</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1070,7 +1075,7 @@ else if (hsp = 0)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>player_Has_Keyboard</string>
+            <string>player_Has_Violin</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1098,7 +1103,7 @@ else if (hsp = 0)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>2</string>
+            <string>1</string>
           </argument>
         </arguments>
       </action>
@@ -1264,7 +1269,7 @@ else if (hsp = 0)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_Pickup_Violin">
+    <event eventtype="4" ename="obj_Pickup_Keyboard">
       <action>
         <libid>1</libid>
         <id>605</id>
@@ -1301,7 +1306,7 @@ else if (hsp = 0)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Set all variables to indicate we have a violin, and destroy this item</string>
+            <string>Set all variables to indicate we have a keyboard, and destroy this item</string>
           </argument>
         </arguments>
       </action>
@@ -1357,7 +1362,7 @@ else if (hsp = 0)
           </argument>
           <argument>
             <kind>13</kind>
-            <string>8388863</string>
+            <string>65280</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1395,7 +1400,7 @@ else if (hsp = 0)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>player_Has_Violin</string>
+            <string>player_Has_Keyboard</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1423,7 +1428,7 @@ else if (hsp = 0)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>1</string>
+            <string>2</string>
           </argument>
         </arguments>
       </action>
@@ -2915,7 +2920,7 @@ event_user(0);
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_Player</object>
+            <object>-100</object>
           </argument>
           <argument>
             <kind>0</kind>

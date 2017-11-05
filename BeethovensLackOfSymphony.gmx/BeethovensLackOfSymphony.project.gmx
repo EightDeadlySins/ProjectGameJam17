@@ -32,14 +32,13 @@
     <background>background\bkg_background</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\obj_Player</object>
+    <object>objects\obj_Pickup_Keyboard</object>
     <object>objects\obj_Wall</object>
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Weapon</object>
     <object>objects\obj_Pickup_Violin</object>
-    <object>objects\obj_Pickup_Keyboard</object>
     <object>objects\obj_Pickup_Quill</object>
     <object>objects\obj_Holding_Violin</object>
     <object>objects\obj_Holding_Keyboard</object>
