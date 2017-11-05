@@ -1978,7 +1978,7 @@ hsp = 0;
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
-        <isnot>-1</isnot>
+        <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>10</kind>
@@ -1986,11 +1986,11 @@ hsp = 0;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>1</string>
+            <string>0</string>
           </argument>
           <argument>
             <kind>4</kind>
-            <string>0</string>
+            <string>2</string>
           </argument>
         </arguments>
       </action>
