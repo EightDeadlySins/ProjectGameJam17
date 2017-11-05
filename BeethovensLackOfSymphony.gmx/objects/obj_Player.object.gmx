@@ -4316,7 +4316,7 @@ event_user(0);
           </argument>
           <argument>
             <kind>0</kind>
-            <string>64</string>
+            <string>1024</string>
           </argument>
           <argument>
             <kind>0</kind>
