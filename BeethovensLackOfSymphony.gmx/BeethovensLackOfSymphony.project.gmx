@@ -25,21 +25,27 @@
     <sprite>sprites\spr_Instrument_2</sprite>
     <sprite>sprites\spr_Instrument_2_Melee</sprite>
     <sprite>sprites\spr_GameOver_screen</sprite>
+    <sprite>sprites\spr_Projectile</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\script0.gml</script>
-  </scripts>
+  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\obj_Player</object>
     <object>objects\obj_Wall</object>
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Weapon</object>
-    <object>objects\obj_Melee_Violin</object>
     <object>objects\obj_Pickup_Violin</object>
+    <object>objects\obj_Pickup_Keyboard</object>
+    <object>objects\obj_Pickup_Quill</object>
+    <object>objects\obj_Holding_Violin</object>
+    <object>objects\obj_Holding_Keyboard</object>
+    <object>objects\obj_Holding_Quill</object>
+    <object>objects\obj_Projectile_Violin</object>
+    <object>objects\obj_Projectile_Keyboard</object>
+    <object>objects\obj_Projectile_Quill</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_GameOver</timeline>
