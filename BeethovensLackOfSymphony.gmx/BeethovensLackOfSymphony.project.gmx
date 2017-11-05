@@ -25,6 +25,8 @@
     <sprite>sprites\spr_Instrument_2</sprite>
     <sprite>sprites\spr_Instrument_2_Melee</sprite>
     <sprite>sprites\spr_GameOver_screen</sprite>
+    <sprite>sprites\spr_Boss1</sprite>
+    <sprite>sprites\spr_Boss_Projectile</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
@@ -40,6 +42,8 @@
     <object>objects\obj_Weapon</object>
     <object>objects\obj_Melee_Violin</object>
     <object>objects\obj_Pickup_Violin</object>
+    <object>objects\obj_Boss1</object>
+    <object>objects\obj_Boss_Projectile</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_GameOver</timeline>
