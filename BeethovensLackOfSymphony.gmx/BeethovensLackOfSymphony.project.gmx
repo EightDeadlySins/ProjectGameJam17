@@ -17,6 +17,9 @@
     <sound>sound\sfx_Whiff2</sound>
     <sound>sound\sfx_Whiff3</sound>
     <sound>sound\mus_Background_Virus</sound>
+    <sound>sound\sfx_Violin</sound>
+    <sound>sound\sfx_Piano</sound>
+    <sound>sound\sfx_Quill</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Player</sprite>
