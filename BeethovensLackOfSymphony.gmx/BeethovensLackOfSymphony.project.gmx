@@ -27,12 +27,18 @@
     <sprite>sprites\spr_Instrument_2_Melee</sprite>
     <sprite>sprites\spr_GameOver_screen</sprite>
     <sprite>sprites\spr_Projectile</sprite>
+    <sprite>sprites\spr_Chimney</sprite>
+    <sprite>sprites\spr_Crate</sprite>
+    <sprite>sprites\spr_GameOver</sprite>
+    <sprite>sprites\spr_Keyboard</sprite>
+    <sprite>sprites\spr_Quill</sprite>
+    <sprite>sprites\spr_WalkingLeft</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\obj_Player</object>
     <object>objects\obj_Pickup_Keyboard</object>
@@ -49,6 +55,7 @@
     <object>objects\obj_Projectile_Quill</object>
     <object>objects\obj_Music</object>
     <object>objects\obj_Spawn</object>
+    <object>objects\obj_GameOver</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_GameOver</timeline>
