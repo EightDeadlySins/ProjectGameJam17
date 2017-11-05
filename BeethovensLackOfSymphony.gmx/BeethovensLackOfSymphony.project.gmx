@@ -22,9 +22,13 @@
     <sprite>sprites\spr_Instrument_1</sprite>
     <sprite>sprites\spr_intro</sprite>
     <sprite>sprites\spr_intro_fade</sprite>
-    <sprite>sprites\img_inrto_0</sprite>
-    <sprite>sprites\img_intro_1</sprite>
     <sprite>sprites\img_intro_3</sprite>
+    <sprite>sprites\spr_black_screen</sprite>
+    <sprite>sprites\img_intro_word_0</sprite>
+    <sprite>sprites\img_intro_word_1</sprite>
+    <sprite>sprites\img_intro_word_2</sprite>
+    <sprite>sprites\img_intro_word_3</sprite>
+    <sprite>sprites\spr_Quil</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
@@ -42,7 +46,7 @@
     <object>objects\obj_Pickup_Violin</object>
     <object>objects\obj_intro_0</object>
     <object>objects\obj__intro_words_0</object>
-    <object>objects\obj_intro_1</object>
+    <object>objects\obj_title_screen_controller</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_intro_0</timeline>
