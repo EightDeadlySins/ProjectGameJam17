@@ -47,6 +47,7 @@
     <object>objects\obj_Projectile_Violin</object>
     <object>objects\obj_Projectile_Keyboard</object>
     <object>objects\obj_Projectile_Quill</object>
+    <object>objects\obj_Music</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_GameOver</timeline>
