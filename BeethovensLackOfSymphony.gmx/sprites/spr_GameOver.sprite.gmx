@@ -7,16 +7,24 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
+<<<<<<< HEAD
   <bbox_left>4</bbox_left>
   <bbox_right>248</bbox_right>
   <bbox_top>3</bbox_top>
   <bbox_bottom>58</bbox_bottom>
+=======
+  <bbox_left>0</bbox_left>
+  <bbox_right>244</bbox_right>
+  <bbox_top>0</bbox_top>
+  <bbox_bottom>54</bbox_bottom>
+>>>>>>> 76aff7ebd970e23ca2cdd0650ed90c87a1102608
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
+<<<<<<< HEAD
   <width>256</width>
   <height>64</height>
   <frames>
@@ -520,5 +528,11 @@
     <frame index="497">images\spr_GameOver_497.png</frame>
     <frame index="498">images\spr_GameOver_498.png</frame>
     <frame index="499">images\spr_GameOver_499.png</frame>
+=======
+  <width>245</width>
+  <height>55</height>
+  <frames>
+    <frame index="0">images\spr_GameOver_0.png</frame>
+>>>>>>> 76aff7ebd970e23ca2cdd0650ed90c87a1102608
   </frames>
 </sprite>

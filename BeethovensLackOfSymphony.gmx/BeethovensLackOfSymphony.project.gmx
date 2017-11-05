@@ -26,9 +26,12 @@
     <sprite>sprites\spr_Wall</sprite>
     <sprite>sprites\spr_Enemy</sprite>
     <sprite>sprites\spr_Weapon</sprite>
+    <sprite>sprites\spr_Quil</sprite>
+    <sprite>sprites\spr_Instrument_1</sprite>
     <sprite>sprites\spr_Instrument_2</sprite>
     <sprite>sprites\spr_Instrument_2_Melee</sprite>
     <sprite>sprites\spr_GameOver_screen</sprite>
+<<<<<<< HEAD
     <sprite>sprites\spr_Projectile</sprite>
     <sprite>sprites\spr_Chimney</sprite>
     <sprite>sprites\spr_Crate</sprite>
@@ -37,6 +40,24 @@
     <sprite>sprites\spr_Quill</sprite>
     <sprite>sprites\spr_WalkingLeft</sprite>
     <sprite>sprites\spr_Sky</sprite>
+=======
+    <sprite>sprites\spr_GameOver</sprite>
+    <sprite>sprites\spr_Player_walking_right</sprite>
+    <sprite>sprites\spr_Player_walking_left</sprite>
+    <sprite>sprites\spr_intro</sprite>
+    <sprite>sprites\spr_intro_fade</sprite>
+    <sprite>sprites\img_intro_2</sprite>
+    <sprite>sprites\img_intro_3</sprite>
+    <sprite>sprites\spr_intro_screen</sprite>
+    <sprite>sprites\spr_black_screen</sprite>
+    <sprite>sprites\img_intro_word_0</sprite>
+    <sprite>sprites\img_intro_word_1</sprite>
+    <sprite>sprites\img_intro_word_2</sprite>
+    <sprite>sprites\img_intro_word_3</sprite>
+    <sprite>sprites\scr_sludge</sprite>
+    <sprite>sprites\spr_sludge_chopan</sprite>
+    <sprite>sprites\spr_Stage_opening</sprite>
+>>>>>>> 76aff7ebd970e23ca2cdd0650ed90c87a1102608
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
@@ -51,6 +72,7 @@
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Weapon</object>
     <object>objects\obj_Pickup_Violin</object>
+<<<<<<< HEAD
     <object>objects\obj_Pickup_Quill</object>
     <object>objects\obj_Holding_Violin</object>
     <object>objects\obj_Holding_Keyboard</object>
@@ -61,14 +83,27 @@
     <object>objects\obj_Music</object>
     <object>objects\obj_Spawn</object>
     <object>objects\obj_GameOver</object>
+=======
+    <object>objects\obj_intro_0</object>
+    <object>objects\obj__intro_words_0</object>
+    <object>objects\obj_title_screen_controller</object>
+    <object>objects\obj_Game_Over</object>
+    <object>objects\obj_Win_controller</object>
+>>>>>>> 76aff7ebd970e23ca2cdd0650ed90c87a1102608
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_GameOver</timeline>
   </timelines>
   <rooms name="rooms">
+<<<<<<< HEAD
     <room>rooms\rm_Main</room>
     <room>rooms\rm_Test_Room</room>
+=======
+>>>>>>> 76aff7ebd970e23ca2cdd0650ed90c87a1102608
     <room>rooms\rm_GameOver</room>
+    <room>rooms\rm_Inrto</room>
+    <room>rooms\rm_Test_Room</room>
+    <room>rooms\rm_Win</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
