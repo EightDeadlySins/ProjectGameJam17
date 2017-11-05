@@ -677,6 +677,46 @@ else if (hsp = 0)
       </action>
       <action>
         <libid>1</libid>
+        <id>532</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_effect</functionname>
+        <codestring></codestring>
+        <whoName>other</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>13</kind>
+            <string>33023</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>203</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -976,7 +1016,7 @@ else if (hsp = 0)
         <arguments>
           <argument>
             <kind>4</kind>
-            <string>7</string>
+            <string>0</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -992,7 +1032,7 @@ else if (hsp = 0)
           </argument>
           <argument>
             <kind>13</kind>
-            <string>16776960</string>
+            <string>65280</string>
           </argument>
           <argument>
             <kind>4</kind>
