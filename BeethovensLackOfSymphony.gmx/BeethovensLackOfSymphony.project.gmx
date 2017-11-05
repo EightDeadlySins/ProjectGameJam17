@@ -17,6 +17,7 @@
     <sprite>sprites\spr_Instrument_2</sprite>
     <sprite>sprites\spr_Instrument_2_Melee</sprite>
     <sprite>sprites\spr_GameOver_screen</sprite>
+    <sprite>sprites\spr_Player_walking_right</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
