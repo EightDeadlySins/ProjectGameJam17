@@ -5,9 +5,18 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\gameover_music</sound>
-    <sound>sound\background_music_epic</sound>
     <sound>sound\background_music</sound>
+    <sound>sound\background_music_epic</sound>
+    <sound>sound\gameover_music</sound>
+    <sound>sound\sfx_Attack1</sound>
+    <sound>sound\sfx_Attack2</sound>
+    <sound>sound\sfx_Jump</sound>
+    <sound>sound\sfx_Walk1</sound>
+    <sound>sound\sfx_Walk2</sound>
+    <sound>sound\sfx_Whiff1</sound>
+    <sound>sound\sfx_Whiff2</sound>
+    <sound>sound\sfx_Whiff3</sound>
+    <sound>sound\mus_Background_Virus</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Player</sprite>
@@ -35,32 +44,50 @@
     <sprite>sprites\scr_sludge</sprite>
     <sprite>sprites\spr_sludge_chopan</sprite>
     <sprite>sprites\spr_Stage_opening</sprite>
+    <sprite>sprites\spr_Projectile</sprite>
+    <sprite>sprites\spr_Chimney</sprite>
+    <sprite>sprites\spr_Crate</sprite>
+    <sprite>sprites\spr_GameOver</sprite>
+    <sprite>sprites\spr_Keyboard</sprite>
+    <sprite>sprites\spr_Quill</sprite>
+    <sprite>sprites\spr_WalkingLeft</sprite>
+    <sprite>sprites\spr_Sky</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
+    <background>background\background1</background>
+    <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\script0.gml</script>
-  </scripts>
   <objects name="objects">
     <object>objects\obj_Player</object>
+    <object>objects\obj_Pickup_Keyboard</object>
     <object>objects\obj_Wall</object>
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Weapon</object>
-    <object>objects\obj_Melee_Violin</object>
     <object>objects\obj_Pickup_Violin</object>
     <object>objects\obj_intro_0</object>
     <object>objects\obj__intro_words_0</object>
     <object>objects\obj_title_screen_controller</object>
     <object>objects\obj_Game_Over</object>
     <object>objects\obj_Win_controller</object>
+    <object>objects\obj_Pickup_Quill</object>
+    <object>objects\obj_Holding_Violin</object>
+    <object>objects\obj_Holding_Keyboard</object>
+    <object>objects\obj_Holding_Quill</object>
+    <object>objects\obj_Projectile_Violin</object>
+    <object>objects\obj_Projectile_Keyboard</object>
+    <object>objects\obj_Projectile_Quill</object>
+    <object>objects\obj_Music</object>
+    <object>objects\obj_Spawn</object>
+    <object>objects\obj_GameOver</object>
   </objects>
   <timelines name="timelines">
-    <timeline>timelines\tl_intro_0</timeline>
     <timeline>timelines\tl_GameOver</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\rm_Main</room>
+    <room>rooms\rm_Test_Room</room>
     <room>rooms\rm_GameOver</room>
     <room>rooms\rm_Inrto</room>
     <room>rooms\rm_Test_Room</room>
