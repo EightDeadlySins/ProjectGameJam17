@@ -70,5 +70,9 @@
     <frame index="47">images\spr_GameOver_screen_47.png</frame>
     <frame index="48">images\spr_GameOver_screen_48.png</frame>
     <frame index="49">images\spr_GameOver_screen_49.png</frame>
+    <frame index="50">images\spr_GameOver_screen_50.png</frame>
+    <frame index="51">images\spr_GameOver_screen_51.png</frame>
+    <frame index="52">images\spr_GameOver_screen_52.png</frame>
+    <frame index="53">images\spr_GameOver_screen_53.png</frame>
   </frames>
 </sprite>
