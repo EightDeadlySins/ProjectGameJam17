@@ -61,6 +61,7 @@
     <timeline>timelines\tl_GameOver</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\rm_Main</room>
     <room>rooms\rm_Test_Room</room>
     <room>rooms\rm_GameOver</room>
   </rooms>
