@@ -19,6 +19,7 @@
     <sprite>sprites\spr_GameOver_screen</sprite>
     <sprite>sprites\spr_Player_walking_right</sprite>
     <sprite>sprites\spr_Player_walking_left</sprite>
+    <sprite>sprites\spr_Instrument_1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
