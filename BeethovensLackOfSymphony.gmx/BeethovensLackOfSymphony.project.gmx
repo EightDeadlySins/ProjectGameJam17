@@ -57,6 +57,7 @@
     <sprite>sprites\scr_sludge</sprite>
     <sprite>sprites\spr_sludge_chopan</sprite>
     <sprite>sprites\spr_Stage_opening</sprite>
+    <sprite>sprites\spr_Victory</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
@@ -88,6 +89,7 @@
     <object>objects\obj_title_screen_controller</object>
     <object>objects\obj_Game_Over</object>
     <object>objects\obj_Win_controller</object>
+    <object>objects\obj_Win_Screen</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_GameOver</timeline>

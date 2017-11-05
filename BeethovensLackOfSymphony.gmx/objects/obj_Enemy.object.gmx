@@ -231,7 +231,7 @@ hsp = 0;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>100</string>
+            <string>75</string>
           </argument>
         </arguments>
       </action>
@@ -2847,7 +2847,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>100</string>
+            <string>75</string>
           </argument>
         </arguments>
       </action>
@@ -2933,7 +2933,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>100</string>
+            <string>75</string>
           </argument>
         </arguments>
       </action>

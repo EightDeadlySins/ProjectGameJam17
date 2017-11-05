@@ -330,7 +330,8 @@
     <instance objName="obj_Pickup_Quill" x="2080" y="224" name="inst_7A92BDD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pickup_Violin" x="160" y="224" name="inst_B46FC80C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pickup_Keyboard" x="4000" y="192" name="inst_719FC478" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Spawn" x="1952" y="288" name="inst_05F6B53C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spawn" x="1952" y="256" name="inst_05F6B53C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Win_controller" x="32" y="0" name="inst_9CA9634B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
