@@ -31,6 +31,8 @@
     <sprite>sprites\spr_Instrument_2</sprite>
     <sprite>sprites\spr_Instrument_2_Melee</sprite>
     <sprite>sprites\spr_GameOver_screen</sprite>
+    <sprite>sprites\spr_Boss1</sprite>
+    <sprite>sprites\spr_Boss_Projectile</sprite>
     <sprite>sprites\spr_Projectile</sprite>
     <sprite>sprites\spr_Chimney</sprite>
     <sprite>sprites\spr_Crate</sprite>
@@ -68,6 +70,8 @@
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Weapon</object>
     <object>objects\obj_Pickup_Violin</object>
+    <object>objects\obj_Boss1</object>
+    <object>objects\obj_Boss_Projectile</object>
     <object>objects\obj_Pickup_Quill</object>
     <object>objects\obj_Holding_Violin</object>
     <object>objects\obj_Holding_Keyboard</object>
