@@ -20,6 +20,10 @@
     <sprite>sprites\spr_Player_walking_right</sprite>
     <sprite>sprites\spr_Player_walking_left</sprite>
     <sprite>sprites\spr_Instrument_1</sprite>
+    <sprite>sprites\spr_intro</sprite>
+    <sprite>sprites\spr_intro_fade</sprite>
+    <sprite>sprites\img_inrto_0</sprite>
+    <sprite>sprites\img_intro_1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_background</background>
@@ -35,11 +39,16 @@
     <object>objects\obj_Weapon</object>
     <object>objects\obj_Melee_Violin</object>
     <object>objects\obj_Pickup_Violin</object>
+    <object>objects\obj_intro_0</object>
+    <object>objects\obj__intro_words_0</object>
+    <object>objects\obj_intro_1</object>
   </objects>
   <timelines name="timelines">
+    <timeline>timelines\tl_intro_0</timeline>
     <timeline>timelines\tl_GameOver</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\Title_Screen</room>
     <room>rooms\rm_Test_Room</room>
     <room>rooms\rm_GameOver</room>
   </rooms>
