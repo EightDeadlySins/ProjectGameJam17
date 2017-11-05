@@ -153,7 +153,7 @@
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>spr_black_screen</sprite>
+            <sprite>spr_intro_4</sprite>
           </argument>
           <argument>
             <kind>0</kind>

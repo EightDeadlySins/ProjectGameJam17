@@ -47,6 +47,7 @@
     <sprite>sprites\spr_intro_fade</sprite>
     <sprite>sprites\img_intro_2</sprite>
     <sprite>sprites\img_intro_3</sprite>
+    <sprite>sprites\spr_intro_4</sprite>
     <sprite>sprites\spr_intro_screen</sprite>
     <sprite>sprites\spr_black_screen</sprite>
     <sprite>sprites\img_intro_word_0</sprite>
@@ -92,11 +93,11 @@
     <timeline>timelines\tl_GameOver</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\rm_Main</room>
-    <room>rooms\rm_Test_Room</room>
-    <room>rooms\rm_GameOver</room>
     <room>rooms\rm_Inrto</room>
+    <room>rooms\rm_Main</room>
+    <room>rooms\rm_GameOver</room>
     <room>rooms\rm_Win</room>
+    <room>rooms\rm_Test_Room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
